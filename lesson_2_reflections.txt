@@ -1,0 +1,12 @@
+1)What happens when you initialize a repository? Why do you need to do it?
+A:.git file is created. To create a respository so that the changes can be tracked.
+The command used to create a respository git init.
+
+2)How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+A:Staging area conatins the file in which changes is monitored and git tracks the
+history of changes while working directory conatins the original final and if there
+is a new commit the working directory file is updated.
+It offers confidence to the programmer of modifying the files
+
+3)
