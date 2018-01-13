@@ -9,4 +9,42 @@ history of changes while working directory conatins the original final and if th
 is a new commit the working directory file is updated.
 It offers confidence to the programmer of modifying the files
 
-3)
+3)How can you use the staging area to make sure you have one commit per logical change?
+A:after modifying we can use the command git diff to see the changes between the 
+current working directory and staging area
+thus the changes will be visible
+Now will make sure that there is one logical change
+then git add file_name will add the file to the staging area
+and the git diff will show no changes and then we will commit
+
+4)What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+A:If we want to make a new version or a new mode of the file but want to keep 
+the original mode or version untouched we can create a branch and can merge it afterwards
+after testing.
+like we created easy mode of asteroids game in which the asteroids splited into
+2 smaller pieces rather than 3
+
+
+5)How do the diagrams help you visualize the branch structure?
+
+A:It shows the number of branches in the repository and gives a clear picture of 
+which commits are associated with the branch
+
+6)What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do? 
+
+A:After merging branches together git will contain all the commits of the two branches
+and the line that was added by any of the branch wil be present
+and the line removed will not be present
+and the common line will be present;
+It is represented in a diagram because of easy understanding
+
+
+7)What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: Git might not understand which lines to keep if one line from the parent file
+is modified by two programmers thus manual merging helps us to analyse and then merge
+if new lines of codes are introduced by both the programmers then it will retain and
+no error conflict will be shown
+but if both the programmers modified the same line conflicts occurs
