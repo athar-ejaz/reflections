@@ -15,3 +15,15 @@ branches: create parallel versions of application
 remote stored locally?
 A:we can work on the local known state so that we can work offline and then
 merge the directory after getting online
+
+5)How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+A:With using git by making the other person the collaborator
+it would be much easier to do so.
+
+6)When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+A:When we want to add a feature to the app without collapsing the master branch
+and also when other's are trying to incorporate certain features so that after 
+making the necessary changes pull requests can be raised and then with the help
+of github we can see the changes and can plan to merge.
